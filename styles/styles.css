@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(0, 0, 0);
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1{
+    margin-left: .5em;
+    font-family: 'Righteous', cursive;
+    background-color: blue;
+    color: red;  
+}
+.button1:hover { 
+ color: blue;
+ background-color: red;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+  
+    padding: 1em;
+    border: 1px solid #f10101;
+    border-radius: 1em;
+}
+
+label{
+    color: rgb(0, 0, 0);
+    margin-right: .5em;
+}
+h1{
+    text-align: center;
+    font-weight: 700;
+}
+form{
+    background-color: rgb(255, 255, 255);
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 white(255,255,255, 0.8);
+    border-radius: 10px;
+}
+.form{
+    width: 100%;
+    margin: auto;
+}
+
+form .grupo{
+    position: relative;
+    margin: 45px;
+}
